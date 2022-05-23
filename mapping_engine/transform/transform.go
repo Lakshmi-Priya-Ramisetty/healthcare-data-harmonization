@@ -32,7 +32,7 @@ import (
 	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/mapping"                     /* copybara-comment: mapping */
 	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/postprocess"                 /* copybara-comment: postprocess */
 	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/projector"                   /* copybara-comment: projector */ /* copybara-comment: registerall */
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/types/register_all"              /* copybara-comment: registerall */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/types/register_all"              /* copybara-comment: registerall */
 	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/types"                       /* copybara-comment: types */
 	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/util/gcsutil"                /* copybara-comment: gcsutil */
 	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/util/jsonutil"               /* copybara-comment: jsonutil */
