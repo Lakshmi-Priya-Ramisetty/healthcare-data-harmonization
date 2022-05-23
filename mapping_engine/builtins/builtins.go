@@ -16,6 +16,7 @@
 package builtins
 
 import (
+	"encoding/base64"
 	"encoding/hex"
 	"errors"
 	"fmt"
@@ -27,10 +28,10 @@ import (
 	"strings"
 	"time"
 
+	"bitbucket.org/creachadair/stringset"                                                       /* copybara-comment: stringset */
 	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/util/jsonutil" /* copybara-comment: jsonutil */
-	"github.com/google/go-cmp/cmp" /* copybara-comment: cmp */
-	"bitbucket.org/creachadair/stringset" /* copybara-comment: stringset */
-	"github.com/google/uuid" /* copybara-comment: uuid */
+	"github.com/google/go-cmp/cmp"                                                              /* copybara-comment: cmp */
+	"github.com/google/uuid"                                                                    /* copybara-comment: uuid */
 )
 
 // When adding a built-in, remember to add it to the map below with its name as the key.
@@ -97,6 +98,7 @@ var BuiltinFunctions = map[string]interface{}{
 	"$ToLower":      ToLower,
 	"$ToUpper":      ToUpper,
 	"$Trim":         Trim,
+	"$base64encode": base64encode,
 }
 
 // Now is exported to allow for mocking in tests.
@@ -867,4 +869,8 @@ func ToUpper(str jsonutil.JSONStr) (jsonutil.JSONStr, error) {
 // Trim strips the leading and trailing whitespace of the input string.
 func Trim(str jsonutil.JSONStr) (jsonutil.JSONStr, error) {
 	return jsonutil.JSONStr(strings.TrimSpace(string(str))), nil
+}
+
+func base64encode(str jsonutil.JSONStr) (jsonutil.JSONStr, error) {
+	return jsonutil.JSONStr(base64.StdEncoding.EncodeToString([]byte(str))), nil
 }
