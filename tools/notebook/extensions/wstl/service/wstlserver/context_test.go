@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"testing"
 
-	wspb "github.com/GoogleCloudPlatform/healthcare-data-harmonization/tools/notebook/extensions/wstl/proto" /* copybara-comment: wstlservice_go_proto */
-	"github.com/google/go-cmp/cmp" /* copybara-comment: cmp */
-	"google.golang.org/grpc/codes" /* copybara-comment: codes */
-	"google.golang.org/grpc/status" /* copybara-comment: status */
+	wspb "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/tools/notebook/extensions/wstl/proto" /* copybara-comment: wstlservice_go_proto */
+	"github.com/google/go-cmp/cmp"                                                                               /* copybara-comment: cmp */
+	"google.golang.org/grpc/codes"                                                                               /* copybara-comment: codes */
+	"google.golang.org/grpc/status"                                                                              /* copybara-comment: status */
 )
 
 type mockStorageClient struct {

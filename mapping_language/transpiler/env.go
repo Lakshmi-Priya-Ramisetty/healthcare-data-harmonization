@@ -17,10 +17,10 @@ package transpiler
 import (
 	"fmt"
 
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/util/jsonutil" /* copybara-comment: jsonutil */
-	"bitbucket.org/creachadair/stringset" /* copybara-comment: stringset */
+	"bitbucket.org/creachadair/stringset"                                                           /* copybara-comment: stringset */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/util/jsonutil" /* copybara-comment: jsonutil */
 
-	mpb "github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/proto" /* copybara-comment: mapping_go_proto */
+	mpb "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/proto" /* copybara-comment: mapping_go_proto */
 )
 
 // env represents a lexical variable/input/target binding environment. This is a component of a

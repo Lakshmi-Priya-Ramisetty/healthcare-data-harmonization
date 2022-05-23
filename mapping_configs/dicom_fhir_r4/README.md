@@ -47,7 +47,7 @@ https://www.hl7.org/fhir/imagingstudy-mappings.html#dicom
 ## Running the mapping
 
 The mapping can be run using
-[these instructions.](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_configs/README.md)
+[these instructions.](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_configs/README.md)
 
 ## Unmapped fields
 

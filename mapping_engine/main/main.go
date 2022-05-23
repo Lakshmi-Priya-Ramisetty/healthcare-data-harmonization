@@ -25,15 +25,14 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/transform" /* copybara-comment: transform */
-	"google.golang.org/protobuf/encoding/prototext" /* copybara-comment: prototext */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/transform" /* copybara-comment: transform */
+	"google.golang.org/protobuf/encoding/prototext"                                             /* copybara-comment: prototext */
 
-	dhpb "github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/proto" /* copybara-comment: data_harmonization_go_proto */
-	hpb "github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/proto" /* copybara-comment: harmonization_go_proto */
-	httppb "github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/proto" /* copybara-comment: http_go_proto */
-	libpb "github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/proto" /* copybara-comment: library_go_proto */
-	fileutil "github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/util/ioutil" /* copybara-comment: ioutil */
-
+	dhpb "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/proto"           /* copybara-comment: data_harmonization_go_proto */
+	hpb "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/proto"            /* copybara-comment: harmonization_go_proto */
+	httppb "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/proto"         /* copybara-comment: http_go_proto */
+	libpb "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/proto"          /* copybara-comment: library_go_proto */
+	fileutil "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/util/ioutil" /* copybara-comment: ioutil */
 )
 
 const fileWritePerm = 0666
@@ -64,7 +63,6 @@ var (
 	dhConfigFile      = flag.String("data_harmonization_config_file_spec", "", "Data Harmonization config (textproto). If this flag is specified, other configs cannot be specified.")
 
 	verbose = flag.Bool("verbose", false, "Enables outputting full trace of operations at the end.")
-
 )
 
 const (

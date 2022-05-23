@@ -3,9 +3,9 @@
     "displayName": "Whistle Language Server",
     "description": "The Whistle Language Server extension to provide language server support for Whistle langauge on Jupyter Notebook.",
     "version": "0.0.1",
-    "homepage": "https://github.com/GoogleCloudPlatform/healthcare-data-harmonization",
+    "homepage": "https://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization",
     "bugs": {
-      "url": "https://github.com/GoogleCloudPlatform/healthcare-data-harmonization/issues"
+      "url": "https://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/issues"
     },
     "license": "Apache-2.0",
     "author": "Googler <noreply@google.com>",

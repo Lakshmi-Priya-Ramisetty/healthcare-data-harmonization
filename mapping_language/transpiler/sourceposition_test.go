@@ -17,12 +17,12 @@ package transpiler
 import (
 	"testing"
 
-	"github.com/antlr/antlr4/runtime/Go/antlr" /* copybara-comment: antlr */
-	"github.com/google/go-cmp/cmp" /* copybara-comment: cmp */
+	"github.com/antlr/antlr4/runtime/Go/antlr"    /* copybara-comment: antlr */
+	"github.com/google/go-cmp/cmp"                /* copybara-comment: cmp */
 	"google.golang.org/protobuf/testing/protocmp" /* copybara-comment: protocmp */
 
+	mpb "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/proto" /* copybara-comment: mapping_go_proto */
 	anypb "google.golang.org/protobuf/types/known/anypb"
-	mpb "github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/proto" /* copybara-comment: mapping_go_proto */
 )
 
 var tokenFactory = antlr.CommonTokenFactoryDEFAULT

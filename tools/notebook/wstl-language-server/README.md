@@ -10,7 +10,7 @@ other IDEs, please refer to the requirements for the specific IDE.
 ## Features
 
 *   Auto-Suggestion: it suggests the
-    [Whistle built-in functions](https://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_language/doc/builtins.md)
+    [Whistle built-in functions](https://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_language/doc/builtins.md)
     preceded by `$`.
 
 ## Requirements
@@ -25,7 +25,7 @@ other IDEs, please refer to the requirements for the specific IDE.
 
 *   In order for the Jupyter Notebook to recognize the Whistle files, install
     the
-    [wstl-syntax-highlighting](https://github.com/GoogleCloudPlatform/healthcare-data-harmonization/tree/master/tools/notebook/wstl-syntax-highlighting)
+    [wstl-syntax-highlighting](https://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/tree/master/tools/notebook/wstl-syntax-highlighting)
     extension.
 
 *   If you intend to run the Whistle Language Server on Jupyterlab, please

@@ -15,8 +15,8 @@
 package transpiler
 
 import (
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_language/errors" /* copybara-comment: errors */
-	"github.com/antlr/antlr4/runtime/Go/antlr" /* copybara-comment: antlr */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_language/errors" /* copybara-comment: errors */
+	"github.com/antlr/antlr4/runtime/Go/antlr"                                                 /* copybara-comment: antlr */
 )
 
 // fail is a helper function to break out of parsing immediately with a Transpilation error.

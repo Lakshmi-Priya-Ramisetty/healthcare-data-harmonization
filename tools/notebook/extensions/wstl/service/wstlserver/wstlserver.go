@@ -18,11 +18,11 @@ package wstlserver
 import (
 	"context"
 
-	"google.golang.org/grpc/codes" /* copybara-comment: codes */
+	"google.golang.org/grpc/codes"  /* copybara-comment: codes */
 	"google.golang.org/grpc/status" /* copybara-comment: status */
 
-	wspb "github.com/GoogleCloudPlatform/healthcare-data-harmonization/tools/notebook/extensions/wstl/proto" /* copybara-comment: wstlservice_go_proto */
-	wsgrpc "github.com/GoogleCloudPlatform/healthcare-data-harmonization/tools/notebook/extensions/wstl/proto" /* copybara-comment: wstlservice_proto_grpc */
+	wsgrpc "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/tools/notebook/extensions/wstl/proto" /* copybara-comment: wstlservice_proto_grpc */
+	wspb "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/tools/notebook/extensions/wstl/proto"   /* copybara-comment: wstlservice_go_proto */
 )
 
 // NewWstlServiceServer instantiates a new WstlServiceServer

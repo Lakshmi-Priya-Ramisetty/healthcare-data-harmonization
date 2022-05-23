@@ -7,9 +7,9 @@
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/GoogleCloudPlatform/healthcare-data-harmonization",
+  "homepage": "https://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization",
   "bugs": {
-    "url": "https://github.com/GoogleCloudPlatform/healthcare-data-harmonization/issues"
+    "url": "https://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/issues"
   },
   "license": "Apache-2.0",
   "author": "Googler <noreply@google.com>",
@@ -20,7 +20,7 @@
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GoogleCloudPlatform/healthcare-data-harmonization.git"
+    "url": "https://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization.git"
   },
   "scripts": {
     "build": "tsc",

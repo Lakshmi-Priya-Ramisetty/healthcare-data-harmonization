@@ -23,27 +23,25 @@ import (
 
 	"google.golang.org/protobuf/encoding/prototext" /* copybara-comment: prototext */
 
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/auth" /* copybara-comment: auth */
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/cloudfunction" /* copybara-comment: cloudfunction */
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/errors" /* copybara-comment: errors */
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/fetch" /* copybara-comment: fetch */
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/harmonization/harmonizecode" /* copybara-comment: harmonizecode */
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/harmonization/harmonizeunit" /* copybara-comment: harmonizeunit */
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/mapping" /* copybara-comment: mapping */
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/postprocess" /* copybara-comment: postprocess */
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/projector" /* copybara-comment: projector */
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/types/register_all" /* copybara-comment: registerall */
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/types" /* copybara-comment: types */
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/util/gcsutil" /* copybara-comment: gcsutil */
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/util/jsonutil" /* copybara-comment: jsonutil */
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_language/transpiler" /* copybara-comment: transpiler */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/auth"                        /* copybara-comment: auth */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/cloudfunction"               /* copybara-comment: cloudfunction */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/errors"                      /* copybara-comment: errors */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/fetch"                       /* copybara-comment: fetch */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/harmonization/harmonizecode" /* copybara-comment: harmonizecode */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/harmonization/harmonizeunit" /* copybara-comment: harmonizeunit */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/mapping"                     /* copybara-comment: mapping */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/postprocess"                 /* copybara-comment: postprocess */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/projector"                   /* copybara-comment: projector */ /* copybara-comment: registerall */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/types"                       /* copybara-comment: types */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/util/gcsutil"                /* copybara-comment: gcsutil */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/util/jsonutil"               /* copybara-comment: jsonutil */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_language/transpiler"                /* copybara-comment: transpiler */
 
-	dhpb "github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/proto" /* copybara-comment: data_harmonization_go_proto */
-	hapb "github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/proto" /* copybara-comment: harmonization_go_proto */
-	httppb "github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/proto" /* copybara-comment: http_go_proto */
-	libpb "github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/proto" /* copybara-comment: library_go_proto */
-	mappb "github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/proto" /* copybara-comment: mapping_go_proto */
-
+	dhpb "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/proto"   /* copybara-comment: data_harmonization_go_proto */
+	hapb "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/proto"   /* copybara-comment: harmonization_go_proto */
+	httppb "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/proto" /* copybara-comment: http_go_proto */
+	libpb "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/proto"  /* copybara-comment: library_go_proto */
+	mappb "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/proto"  /* copybara-comment: mapping_go_proto */
 )
 
 // Transformer defines an interface to perform transformations.

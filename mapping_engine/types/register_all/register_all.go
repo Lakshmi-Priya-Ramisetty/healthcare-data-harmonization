@@ -18,9 +18,9 @@ package registerall
 import (
 	"fmt"
 
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/builtins" /* copybara-comment: builtins */
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/projector" /* copybara-comment: projector */
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/types" /* copybara-comment: types */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/builtins"  /* copybara-comment: builtins */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/projector" /* copybara-comment: projector */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/types"     /* copybara-comment: types */
 )
 
 // RegisterAll registers all built-ins declared in the built-ins maps. This will wrap the functions

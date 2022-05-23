@@ -20,7 +20,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/util/jsonutil" /* copybara-comment: jsonutil */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/util/jsonutil" /* copybara-comment: jsonutil */
 )
 
 const (
@@ -130,8 +130,8 @@ func (c *Context) generateStackOverflowError() error {
 // NewContext creates a new context with empty components initialized and ready to go.
 func NewContext(registry *Registry) *Context {
 	return &Context{
-		TopLevelObjects: map[string][]jsonutil.JSONToken{},
-		Output:          new(jsonutil.JSONToken),
+		TopLevelObjects:      map[string][]jsonutil.JSONToken{},
+		Output:               new(jsonutil.JSONToken),
 		Variables:            NewStackMap(),
 		Registry:             registry,
 		stackProjectorCounts: map[string]int{},

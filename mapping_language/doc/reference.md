@@ -26,9 +26,9 @@ in Whistle.
     [FHIR ConceptMaps](https://www.hl7.org/fhir/conceptmap.html) used for code
     harmonization
 *   harmonize_unit_spec: Unit harmonization config
-    ([textproto](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_engine/proto/harmonization.proto))
+    ([textproto](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_engine/proto/harmonization.proto))
 *   data_harmonization_config_file_spec: Data harmonization config
-    ([textproto](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_engine/proto/data_harmonization.proto)).
+    ([textproto](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_engine/proto/data_harmonization.proto)).
 
 ## Mapping
 
@@ -243,7 +243,7 @@ Note that variables are not passed along to `PatientName`.
 
 There are a number of builtin functions provided out of the box. Builtin
 functions are prefixed with a `$`. The full documentation of the builtin
-functions is available [here](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_language/doc/builtins.md).
+functions is available [here](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_language/doc/builtins.md).
 
 ### Null propagation
 
@@ -499,7 +499,7 @@ is returned.
 ### Configuration
 
 See the
-[CodeHarmonization protobuf](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_engine/proto/harmonization.proto)
+[CodeHarmonization protobuf](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_engine/proto/harmonization.proto)
 for more information on how to configure Code Harmonization.
 
 #### Local code harmonization example
@@ -640,7 +640,7 @@ Return: An array of
 
 Unit harmonization is the mechanism for converting a value in one unit to
 another. The mapping engine uses conversion tables defined in the
-[UnitConfiguration](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_engine/proto/unit_config.proto)
+[UnitConfiguration](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_engine/proto/unit_config.proto)
 syntax. Conversions return a object that contains:
 
 *   `originalQuantity`: the original quantity

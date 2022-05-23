@@ -19,7 +19,7 @@ package wstl.proto;
 
 import "google/rpc/status.proto";
 
-option go_package = "github.com/GoogleCloudPlatform/healthcare-data-harmonization/wstl/proto";
+option go_package = "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/wstl/proto";
 
 // The location of a resource to be transformed.
 message Location {

@@ -8,7 +8,7 @@ configuration file which describes how.
 The configuration file can be written in either the native
 [protobuf](https://developers.google.com/protocol-buffers/docs/overview) format
 or a condensed
-[Whistle Data Transformation Language](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_language)
+[Whistle Data Transformation Language](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_language)
 which is transpiled to protobuf configs for you.
 
 The engine accepts data in JSON format and outputs it in JSON format. For
@@ -21,22 +21,22 @@ This repository is organized into several packages that together enable you to
 author Whistle configs, extend existing mapping configurations, and test configs
 within a Jupyter notebook environment.
 
-*   [Mapping Engine](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_engine/README.md)
-*   [Mapping Language](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_language/README.md)
-*   [Mapping Configs](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_configs/README.md)
-*   [Jupyter Notebook](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/tools/notebook/README.md)
+*   [Mapping Engine](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_engine/README.md)
+*   [Mapping Language](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_language/README.md)
+*   [Mapping Configs](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_configs/README.md)
+*   [Jupyter Notebook](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/tools/notebook/README.md)
 
 ## Getting Started
 
 We highly recommend that you start by setting up your
-[Jupyter Notebook](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/tools/notebook/README.md)
+[Jupyter Notebook](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/tools/notebook/README.md)
 environment using the published docker images and executing the
-[example notebook](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/tools/notebook/examples/demo-sample.ipynb).
+[example notebook](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/tools/notebook/examples/demo-sample.ipynb).
 Once setup, work through the
-[Whistle Data Transformation Language Codelab](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_language/doc/codelab.md)
+[Whistle Data Transformation Language Codelab](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_language/doc/codelab.md)
 to get yourself familiar with Whistle. As you author more Whistle configs, use
 the
-[Whistle Data Transformation Language Reference](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_language/doc/reference.md)
+[Whistle Data Transformation Language Reference](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_language/doc/reference.md)
 to deepen your understanding of the language.
 
 ### Details
@@ -66,12 +66,12 @@ individual READMEs for more information.
 ### Language Reference
 
 A language reference is available:
-[Whistle Data Transformation Language Reference](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_language/doc/reference.md)
+[Whistle Data Transformation Language Reference](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_language/doc/reference.md)
 
 ### Codelab
 
 Please refer to the
-[Whistle Data Transformation Language Codelab](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_language/doc/codelab.md)
+[Whistle Data Transformation Language Codelab](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_language/doc/codelab.md)
 for instructions on how to run the mapping engine and for getting familiar with
 the mapping language.
 
@@ -79,7 +79,7 @@ the mapping language.
 
 Whistle configs can be executed in [Apache Beam](https://beam.apache.org/).
 Please refer to the
-[Whistle Dataflow Pipelines Repo](https://github.com/GoogleCloudPlatform/healthcare-data-harmonization-dataflow)
+[Whistle Dataflow Pipelines Repo](https://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization-dataflow)
 for sample pipelines.
 
 ### Feedback

@@ -25,7 +25,7 @@ freshness: { owner: 'sshussain' reviewed: '2020-04-29' }
 
 This document describes a mapping guide to transform various healthcare data
 standards and terminologies using the
-[Whistle Data Transformation Language](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_language/doc/index.md).
+[Whistle Data Transformation Language](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_language/doc/index.md).
 
 ## Healthcare Data Standards
 
@@ -79,7 +79,7 @@ TODO(): Write Mapping Configuration section
 ## Whistle Data Transformation Language
 
 The
-[Whistle Data Transformation Language](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_language/doc/index.md)
+[Whistle Data Transformation Language](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_language/doc/index.md)
 expresses data mappings from one schema to another. It lets users transform
 complex, nested data formats into other complex and nested data formats.
 
@@ -87,7 +87,7 @@ complex, nested data formats into other complex and nested data formats.
 
 TODO(): Write Mapping Healthcare Data Standards section
 
-### [HL7 v2 to FHIR](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_configs/hl7v2_fhir_stu3/doc/v2tofhir.md)
+### [HL7 v2 to FHIR](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_configs/hl7v2_fhir_stu3/doc/v2tofhir.md)
 
 ### OMOP to FHIR
 

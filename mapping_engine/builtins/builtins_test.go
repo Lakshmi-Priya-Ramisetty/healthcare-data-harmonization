@@ -22,10 +22,10 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/google/go-cmp/cmp" /* copybara-comment: cmp */
+	"github.com/google/go-cmp/cmp"         /* copybara-comment: cmp */
 	"github.com/google/go-cmp/cmp/cmpopts" /* copybara-comment: cmpopts */
 
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/util/jsonutil" /* copybara-comment: jsonutil */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/util/jsonutil" /* copybara-comment: jsonutil */
 )
 
 func mustParseContainer(json json.RawMessage, t *testing.T) jsonutil.JSONContainer {

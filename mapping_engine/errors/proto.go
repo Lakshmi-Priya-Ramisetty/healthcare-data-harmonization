@@ -17,10 +17,10 @@ package errors
 import (
 	"fmt"
 
-	"google.golang.org/protobuf/proto" /* copybara-comment: proto */
+	"google.golang.org/protobuf/proto"                /* copybara-comment: proto */
 	"google.golang.org/protobuf/reflect/protoreflect" /* copybara-comment: protoreflect */
 
-	mappb "github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/proto" /* copybara-comment: mapping_go_proto */
+	mappb "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/proto" /* copybara-comment: mapping_go_proto */
 )
 
 // ProtoLocation is an implementation of error that generates locations from proto messages.

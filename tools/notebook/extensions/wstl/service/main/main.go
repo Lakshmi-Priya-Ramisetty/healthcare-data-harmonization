@@ -21,10 +21,10 @@ import (
 	"log"
 	"net"
 
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/tools/notebook/extensions/wstl/service/wstlserver" /* copybara-comment: wstlserver */
-	"google.golang.org/grpc" /* copybara-comment: grpc */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/tools/notebook/extensions/wstl/service/wstlserver" /* copybara-comment: wstlserver */
+	"google.golang.org/grpc"                                                                                             /* copybara-comment: grpc */
 
-	wsgrpc "github.com/GoogleCloudPlatform/healthcare-data-harmonization/tools/notebook/extensions/wstl/proto" /* copybara-comment: wstlservice_proto_grpc */
+	wsgrpc "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/tools/notebook/extensions/wstl/proto" /* copybara-comment: wstlservice_proto_grpc */
 )
 
 var (

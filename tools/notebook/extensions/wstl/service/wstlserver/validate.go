@@ -18,12 +18,13 @@ import (
 	"context"
 
 	"google3/third_party/fhir/go/fhirversion" /* copybara-comment: fhirversion */
-	"github.com/google/fhir/go/jsonformat" /* copybara-comment: jsonformat */
-	"google.golang.org/grpc/codes" /* copybara-comment: codes */
-	"google.golang.org/grpc/status" /* copybara-comment: status */
 
+	"github.com/google/fhir/go/jsonformat" /* copybara-comment: jsonformat */
+	"google.golang.org/grpc/codes"         /* copybara-comment: codes */
+	"google.golang.org/grpc/status"        /* copybara-comment: status */
+
+	wspb "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/tools/notebook/extensions/wstl/proto" /* copybara-comment: wstlservice_go_proto */
 	spb "google.golang.org/genproto/googleapis/rpc/status"
-	wspb "github.com/GoogleCloudPlatform/healthcare-data-harmonization/tools/notebook/extensions/wstl/proto" /* copybara-comment: wstlservice_go_proto */
 )
 
 // Validator initiates validation agains a FHIR version.

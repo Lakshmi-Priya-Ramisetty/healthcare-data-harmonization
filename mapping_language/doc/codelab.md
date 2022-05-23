@@ -36,7 +36,7 @@ hands-on practice with the configuration language.
     -mapping_file_spec=$HOME/wstl_codelab/codelab.wstl`
 
 *   See
-    [running mappings](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_language/doc/reference.md#running-your-mappings)
+    [running mappings](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_language/doc/reference.md#running-your-mappings)
     for all available options
 
 ## Hello mapping world
@@ -197,7 +197,7 @@ Output:
 
 Generalize our functions by making the celstial body's `type` an input. We will
 also make use of a builtin function:
-[`$ToUpper`](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_language/doc/builtins.md?cl=head#toupper):
+[`$ToUpper`](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_language/doc/builtins.md?cl=head#toupper):
 
 ``` {highlight="content:\$ToUpper content:,\sbodyType"}
 Planet[0]: BodyName_BodyType_BodyInfo("Earth", "Planet")
@@ -266,7 +266,7 @@ Your output should be:
 </pre>
 
 Use the
-[`$ListOf`](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_language/doc/builtins.md?cl=head#listof)
+[`$ListOf`](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_language/doc/builtins.md?cl=head#listof)
 builtin, which puts all given inputs into an array, to make an array of the
 planets `"Mercury", "Venus", "Earth"`.
 
@@ -2059,7 +2059,7 @@ Output:
 *   Unit harmonization is the mechanism for coverting values in one unit to
     another
 *   The mapping engine uses conversion tables defined in the
-    [UnitConfiguration](http://github.com/GoogleCloudPlatform/healthcare-data-harmonization/blob/master/mapping_engine/proto/unit_config.proto)
+    [UnitConfiguration](http://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/blob/master/mapping_engine/proto/unit_config.proto)
     syntax
 *   Conversions return a object that contains:
     *   `originalQuantity`: the original quantity

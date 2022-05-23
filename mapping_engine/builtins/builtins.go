@@ -28,10 +28,10 @@ import (
 	"strings"
 	"time"
 
-	"bitbucket.org/creachadair/stringset"                                                       /* copybara-comment: stringset */
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/util/jsonutil" /* copybara-comment: jsonutil */
-	"github.com/google/go-cmp/cmp"                                                              /* copybara-comment: cmp */
-	"github.com/google/uuid"                                                                    /* copybara-comment: uuid */
+	"bitbucket.org/creachadair/stringset"                                                           /* copybara-comment: stringset */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/util/jsonutil" /* copybara-comment: jsonutil */
+	"github.com/google/go-cmp/cmp"                                                                  /* copybara-comment: cmp */
+	"github.com/google/uuid"                                                                        /* copybara-comment: uuid */
 )
 
 // When adding a built-in, remember to add it to the map below with its name as the key.

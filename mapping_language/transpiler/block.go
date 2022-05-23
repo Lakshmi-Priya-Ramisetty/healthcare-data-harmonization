@@ -15,8 +15,8 @@
 package transpiler
 
 import (
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_language/parser" /* copybara-comment: parser */
-	"github.com/antlr/antlr4/runtime/Go/antlr" /* copybara-comment: antlr */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_language/parser" /* copybara-comment: parser */
+	"github.com/antlr/antlr4/runtime/Go/antlr"                                                 /* copybara-comment: antlr */
 )
 
 func (t *transpiler) VisitBlock(ctx *parser.BlockContext) interface{} {

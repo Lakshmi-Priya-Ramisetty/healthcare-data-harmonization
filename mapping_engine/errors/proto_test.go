@@ -20,7 +20,7 @@ import (
 
 	"google.golang.org/protobuf/proto" /* copybara-comment: proto */
 
-	mappb "github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/proto" /* copybara-comment: mapping_go_proto */
+	mappb "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/proto" /* copybara-comment: mapping_go_proto */
 )
 
 func TestProtoLocationIsFunction(t *testing.T) {

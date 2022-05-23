@@ -17,8 +17,8 @@ package registerall
 import (
 	"testing"
 
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/builtins" /* copybara-comment: builtins */
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/types" /* copybara-comment: types */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/builtins" /* copybara-comment: builtins */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/types"    /* copybara-comment: types */
 )
 
 func TestRegisterAll(t *testing.T) {

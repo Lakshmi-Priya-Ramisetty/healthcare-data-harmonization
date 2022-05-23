@@ -5,7 +5,7 @@ package cloud.healthcare.cdw.etl.mapping.proto;
 import "proto/harmonization.proto";
 import "proto/library.proto";
 
-option go_package = "github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/proto";
+option go_package = "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/proto";
 
 // Specification of how data should be harmonized including
 // 1) Structure Mapping

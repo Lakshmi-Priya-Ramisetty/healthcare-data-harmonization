@@ -18,7 +18,7 @@ import (
 	"strconv"
 	"testing"
 
-	httppb "github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/proto" /* copybara-comment: http_go_proto */
+	httppb "github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/proto" /* copybara-comment: http_go_proto */
 )
 
 func TestRegisterFetchProjector(t *testing.T) {

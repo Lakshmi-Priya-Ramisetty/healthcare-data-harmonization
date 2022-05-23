@@ -79,7 +79,7 @@ setup_args = {
     'author_email':
         'noreply@google.com',
     'url':
-        'https://github.com/GoogleCloudPlatform/healthcare-data-harmonization.git',
+        'https://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization.git',
     'keywords': [
         'ipython',
         'jupyter',

@@ -22,8 +22,8 @@ import (
 	"net/url"
 	"regexp"
 
-	"github.com/GoogleCloudPlatform/healthcare-data-harmonization/mapping_engine/util/jsonutil" /* copybara-comment: jsonutil */
-	"bitbucket.org/creachadair/stringset" /* copybara-comment: stringset */
+	"bitbucket.org/creachadair/stringset"                                                           /* copybara-comment: stringset */
+	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/util/jsonutil" /* copybara-comment: jsonutil */
 )
 
 var urlParse = regexp.MustCompile(`fhir/([^/]+)(?:/([^?#/]+))?`)

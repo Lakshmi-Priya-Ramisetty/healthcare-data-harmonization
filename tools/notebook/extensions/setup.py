@@ -22,7 +22,7 @@ setuptools.setup(
     description="Whistle Magic Commands",
     long_description="Various magic commands to simplify Whistle based data transformations.",
     long_description_content_type="text/markdown",
-    url="https://github.com/GoogleCloudPlatform/healthcare-data-harmonization.git",
+    url="https://github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization.git",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
