@@ -28,10 +28,10 @@ import (
 	"strings"
 	"time"
 
-	"bitbucket.org/creachadair/stringset"                                                           /* copybara-comment: stringset */
+	"bitbucket.org/creachadair/stringset"                                                       /* copybara-comment: stringset */
 	"github.com/Lakshmi-Priya-Ramisetty/healthcare-data-harmonization/mapping_engine/util/jsonutil" /* copybara-comment: jsonutil */
-	"github.com/google/go-cmp/cmp"                                                                  /* copybara-comment: cmp */
-	"github.com/google/uuid"                                                                        /* copybara-comment: uuid */
+	"github.com/google/go-cmp/cmp"                                                              /* copybara-comment: cmp */
+	"github.com/google/uuid"                                                                    /* copybara-comment: uuid */
 )
 
 // When adding a built-in, remember to add it to the map below with its name as the key.
@@ -871,6 +871,10 @@ func Trim(str jsonutil.JSONStr) (jsonutil.JSONStr, error) {
 	return jsonutil.JSONStr(strings.TrimSpace(string(str))), nil
 }
 
-func base64encode(str jsonutil.JSONStr) (jsonutil.JSONStr, error) {
-	return jsonutil.JSONStr(base64.StdEncoding.EncodeToString([]byte(str))), nil
+func base64encode(path jsonutil.JSONStr, id jsonutil.JSONStr) (jsonutil.JSONStr, error) {
+	value := `{"op": "add", "path": "` + string(path) + `", ` + `"value": {"reference":"` + string(id) + `"}}`
+	bytes := []byte(value)
+	output := "[" + string(bytes) + "]"
+	fmt.Println(output)
+	return jsonutil.JSONStr(base64.StdEncoding.EncodeToString([]byte(output))), nil
 }
