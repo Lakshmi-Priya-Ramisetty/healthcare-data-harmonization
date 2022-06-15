@@ -871,9 +871,9 @@ func Trim(str jsonutil.JSONStr) (jsonutil.JSONStr, error) {
 	return jsonutil.JSONStr(strings.TrimSpace(string(str))), nil
 }
 
-func base64encode(path jsonutil.JSONStr, id jsonutil.JSONStr) (jsonutil.JSONStr, error) {
-	value := `{"op": "add", "path": "` + string(path) + `", ` + `"value": {"reference":"` + string(id) + `"}}`
-	bytes := []byte(value)
+func base64encode(jsonconfig jsonutil.JSONStr) (jsonutil.JSONStr, error) {
+	// value := `{"op": "add", "path": "` + string(path) + `", ` + `"value": {"reference":"` + string(id) + `"}}`
+	bytes := []byte(jsonconfig)
 	output := "[" + string(bytes) + "]"
 	fmt.Println(output)
 	return jsonutil.JSONStr(base64.StdEncoding.EncodeToString([]byte(output))), nil
